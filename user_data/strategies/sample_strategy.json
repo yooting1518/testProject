@@ -1,0 +1,36 @@
+{
+  "strategy_name": "SampleStrategy",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 3
+    },
+    "buy": {
+
+      
+      "buy_rsi": 42,
+      "exit_short_rsi": 33
+    },
+    "sell": {
+      "sell_rsi": 58,
+      "short_rsi": 98
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.509,
+      "128": 0.205,
+      "789": 0.056,
+      "1349": 0
+    },
+    "stoploss": {
+      "stoploss": -0.281
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2024-01-31 01:50:14.436307+00:00"
+}
